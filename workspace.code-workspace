@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"dataworkspace.projects": [
+			"sql-database\\sample-database\\sample-database.sqlproj"
+		]
+	}
+}
