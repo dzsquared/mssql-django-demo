@@ -6,7 +6,7 @@
 	],
 	"settings": {
 		"dataworkspace.projects": [
-			"sql-database\\sample-database\\sample-database.sqlproj"
+			"sql-database\\AdventureWorksLT\\AdventureWorksLT.sqlproj"
 		]
 	}
 }

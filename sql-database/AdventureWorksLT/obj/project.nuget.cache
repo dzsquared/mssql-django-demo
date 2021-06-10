@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "OkeYhRFOR11lAeKanpFCkZZ35oYr4OXd+yl0Yjg1Q3J1Cv70P3uYviuDlyyZKW1pYB4+m05yWTU4Q1yU6fzbxA==",
+  "success": true,
+  "projectFilePath": "c:\\Users\\drewk\\Documents\\SourceCode\\DBProjects\\django-example\\sql-database\\AdventureWorksLT\\AdventureWorksLT.sqlproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\drewk\\.nuget\\packages\\microsoft.netframework.referenceassemblies\\1.0.0\\microsoft.netframework.referenceassemblies.1.0.0.nupkg.sha512",
+    "C:\\Users\\drewk\\.nuget\\packages\\microsoft.netframework.referenceassemblies.net46\\1.0.0\\microsoft.netframework.referenceassemblies.net46.1.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
