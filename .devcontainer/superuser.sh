@@ -1,0 +1,1 @@
+DJANGO_SUPERUSER_USERNAME=admin2 DJANGO_SUPERUSER_PASSWORD=abc123 DJANGO_SUPERUSER_EMAIL=drskwier@microsoft.com python ../mysite/manage.py createsuperuser --noinput

@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'polls.apps.PollsConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -79,7 +80,10 @@ DATABASES = {
         'NAME':'poll-app',
         'HOST': 'localhost',
         'USER': 'sa',
-        'PASSWORD': 'P@ssw0rd'
+        'PASSWORD': 'P@ssw0rd',
+        'OPTIONS': {
+                'driver': 'ODBC Driver 17 for SQL Server',
+            },
     }
 }
 
