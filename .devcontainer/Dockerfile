@@ -15,11 +15,13 @@ ARG NODE_VERSION="lts/*"
 RUN if [ "${INSTALL_NODE}" = "true" ]; then su vscode -c "umask 0002 && . /usr/local/share/nvm/nvm.sh && nvm install ${NODE_VERSION} 2>&1"; fi
 
 # [Optional] Uncomment this section to install additional OS packages.
+RUN apt-get update && apt-get install -y unixodbc unixodbc-dev
 RUN curl https://packages.microsoft.com/keys/microsoft.asc | apt-key add -
 RUN curl https://packages.microsoft.com/config/debian/10/prod.list > /etc/apt/sources.list.d/mssql-release.list
 RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
     && ACCEPT_EULA=Y apt-get install -y msodbcsql17 mssql-tools \
-    && apt-get -y install g++ unixodbc-dev
+    && apt-get -y install g++ 
+# unixodbc-dev
 
 # [Optional] If your requirements rarely change, uncomment this section to add them to the image.
 COPY requirements.txt /tmp/pip-tmp/
